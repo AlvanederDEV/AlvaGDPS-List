@@ -1,27 +1,23 @@
-[
+e[
     {
         "role": "owner",
         "name": "Alva",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
-    },
-    {
-        "role": "admin",
-        "name": "List Admin",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "link": "https://www.youtube.com/@alvaneder"
     },
     {
         "role": "helper",
-        "name": "List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "name": "Danzeon",
+        "link": "https://www.youtube.com/channel/UCzLsO1rVGjddNOhOjeSwa5A"
     },
     {
-        "role": "trial",
-        "name": "Trial List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "role": "helper",
+        "name": "Antrolli",
+        "link": "https://www.youtube.com/channel/UCXs-bQ7DblT7AywVsdqXOrA"
     },
     {
-        "role": "dev",
-        "name": "List Coder",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "role": "helper",
+        "name": "Space",
+        "link": "https://www.youtube.com/channel/UCykTjKweZEa-Gm8zVOruL2Q"
     }
+ 
 ]

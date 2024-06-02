@@ -1,5 +1,5 @@
 {
-    "id": 57436521,
+    "id": 1005,
     "name": "Assymmetrical Compost",
     "author": "Alva",
     "creators": ["Alva"],
@@ -9,16 +9,11 @@
     "password": "",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "Space",
+            "link": "https://www.youtube.com/watch?v=jLjvysH-SFk",
             "percent": 100,
-            "hz": 360
-        },
-        {
-            "user": "Sample_Victor_2",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": 120
+            "hz": 700
         }
+    
     ]
 }

@@ -1,23 +1,23 @@
 {
-    "id": 57436521,
-    "name": "Sample Level 3",
-    "author": "Different Publisher",
-    "creators": ["Solo_Creator"],
-    "verifier": "Solo_Creator",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+    "id": 1000,
+    "name": "Space",
+    "author": "Space",
+    "creators": ["Space"],
+    "verifier": "Space",
+    "verification": "https://youtu.be/xQnqVPFJ7Wg",
     "percentToQualify": "100",
-    "password": "46290",
+    "password": "",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "Alva",
+            "link": "https://www.youtube.com/watch?v=xQnqVPFJ7Wg",
             "percent": 100,
-            "hz": 360
+            "hz": 144
         },
         {
-            "user": "Sample_Victor_2",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
+            "user": "vaginadeperro",
+            "link": "https://www.youtube.com/watch?v=bR6XcKIKFEY",
+            "percent": 90,
             "hz": 120
         }
     ]

@@ -8,6 +8,12 @@
     "percentToQualify": "100",
     "password": "",
     "records": [
+   {
+            "user": "Nix",
+            "link": "https://www.youtube.com/watch?v=atyrY9m04KA",
+            "percent": 100,
+            "hz": 144
+        }
   
     ]
 }

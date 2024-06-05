@@ -35,7 +35,7 @@ export default {
             <input type="checkbox" v-model="cbf" name="record-cbf" id="record-cbf">
           </span>
 
-          <textarea name="record-notes" v-model="notes" id="record-notes" placeholder="Notas"></textarea>
+          <textarea name="record-notes" v-model="notes" id="record-notes" placeholder="Numero de Hz (Hercios)"></textarea>
 
           <button type="button" @click='sendWebhook()'>Enviar</button>
 

@@ -79,7 +79,7 @@ export default {
         this.errortimes += 1
         switch (this.errortimes) {
           case 3:
-            this.error = 'Please fill in all required fields. If you are having trouble, please contact us on Discord.'
+            this.error = 'Rellena todos los campos obligatorios, si necesitas ayuda pídela en Discord.'
             return;
           case 6:
             this.error = 'space es malismo, ya lo sabemos'
@@ -136,7 +136,7 @@ export default {
             embeds: [
               {
                 title: '¡Nuevo Record!',
-                description: 'New record by ' + this.holder + ' on ' + this.level.name + '.',
+                description: 'Nuevo record de ' + this.holder + ' del nivel ' + this.level.name + '.',
                 fields: [
                   {
                     name: 'Nivel',

@@ -14,7 +14,7 @@ export default {
       <div v-if="!sent" id="form-box">
         <form class="form" method="POST">
           <span class="note">* Los asteriscos indican que la pregunta es obligatoria</span>
-          <select name="demon-name" id="demon-name" v-model="Selección de nivel">
+          <select name="demon-name" id="demon-name" v-model="level">
             <option selected disabled="disabled">Selecciona el nivel*</option>
             <option v-for="([level, err], i) in list" :value="level">{{ i + 1 }}. {{ level?.name }}</option>
           </select>

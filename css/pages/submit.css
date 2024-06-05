@@ -1,0 +1,160 @@
+.page-submit{
+    display: flex;
+    flex-direction: column;
+}
+
+.page-submit h1{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.page-submit #rec-sent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 0px;
+}
+.page-submit #rec-sent,
+.page-submit #form-box{
+    margin-left: auto; margin-right: auto;
+    height: fit-content;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2em;
+}
+.page-submit #form-box .note{
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    font-family: "Lexend Deca", sans-serif;
+}
+.page-submit #form-box form{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.page-submit #form-box form select,
+.page-submit #form-box form input,
+.page-submit #form-box form textarea,
+.page-submit #form-box form select option{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid black;
+    border-radius: 0.3em;
+    padding: 0.3em;
+    margin: 0.75em 0px;
+    font-family: "Lexend Deca", sans-serif;
+    color: black;
+}
+.page-submit #form-box form textarea{
+    resize: vertical;
+    max-height: 8em;
+    min-height: 2em;
+}
+
+.page-submit #form-box form select option:hover{
+    background-color: black;
+}
+.page-submit #form-box form select:focus,
+.page-submit #form-box form input:focus,
+.page-submit #form-box form button:focus{
+    outline: solid white 1px;
+}
+.page-submit #form-box form button{
+    width: 100%;
+    background-color: rgb(117, 186, 255);
+    border: 1px solid black;
+    border-radius: 0.3em;
+    padding: 0.3em;
+    margin: 0.75em 0px;
+
+    transition: background-color 200ms;
+}
+.page-submit #form-box form button:hover{
+    background-color: rgb(107, 176, 245);
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+:not(button).success{
+    color: rgb(100, 255, 100);
+    font-size: 3em;
+    text-align: center;
+    padding: 3em;
+}
+
+#percentage-div{
+    display: flex;
+}
+
+#percentage-div > #record-percentage-num{
+    width: 20%;
+    margin-right: 1rem;
+}
+
+
+#percentage-div > #record-percentage {
+    appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-top: auto; margin-bottom: auto;
+  }
+#percentage-div > #record-percentage:hover {
+    opacity: 1;
+}
+#percentage-div > #record-percentage::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+#percentage-div > #record-percentage::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+#error{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+button.success{
+    background-color: rgb(117, 186, 255);
+    color: black;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    padding: 0.3em;
+    margin: 0.75em 0px;
+
+    transition: background-color 200ms;
+}
+button.success:hover{
+    background-color: rgb(107, 176, 245);
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+
+#span-record-cbf{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0.2rem;
+    color: white;
+}
+#record-cbf{
+    width: 20px !important;
+    margin: 0px !important;
+}

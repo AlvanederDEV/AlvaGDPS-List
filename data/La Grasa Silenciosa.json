@@ -8,6 +8,12 @@
     "percentToQualify": "100",
     "password": "",
     "records": [
+  {
+            "user": "Space",
+            "link": "https://www.youtube.com/watch?v=HbVl-lxH_hM",
+            "percent": 100,
+            "hz": 700
+        }
       
     ]
 } 

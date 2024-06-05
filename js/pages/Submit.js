@@ -55,7 +55,7 @@ export default {
     list: [],
     loading: true,
     sent: false,
-    level: 'Select the level*',
+    level: 'Selecciona el nivel*',
     holder: '',
     footage: '',
     rawfootage: '',
@@ -82,7 +82,7 @@ export default {
             this.error = 'Please fill in all required fields. If you are having trouble, please contact us on Discord.'
             return;
           case 6:
-            this.error = 'boi what are you doing'
+            this.error = 'space es malismo, ya lo sabemos'
             return;
           case 10:
             this.error = 'ok you are just trolling now'

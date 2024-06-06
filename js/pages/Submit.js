@@ -35,7 +35,7 @@ export default {
             <input type="checkbox" v-model="cbf" name="record-cbf" id="record-cbf">
           </span>
 
-          <textarea name="record-notes" v-model="notes" id="record-notes" placeholder="Numero de Hz (Hercios)*"></textarea>
+          <textarea name="record-notes" v-model="notes" id="record-notes" placeholder="Numero de Hz (Hercios)*"></textarea><required>
 
           <button type="button" @click='sendWebhook()'>Enviar</button>
 
@@ -43,7 +43,7 @@ export default {
           </form>
           </div>
       <div v-else id="rec-sent">
-        <h2 class="success">'¡Record enviado!</h2>
+        <h2 class="success">¡Record enviado!</h2>
         <button class="success" @click="sent = !sent">Enviar otro record</button>
       </div>
       <h3 id="error">{{ error }}</h3>
@@ -159,11 +159,11 @@ export default {
                     value: this.rawfootage || "None",
                   },
                   {
-                    name: '¿Uso Click Between Frames?',
+                    name: '¿Usó Click Between Frames?',
                     value: this.cbf,
                   },
                   {
-                    name: 'Notas',
+                    name: 'Hz',
                     value: this.notes || "None",
                   },
                 ],
